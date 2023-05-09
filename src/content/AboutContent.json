@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Get summer or winter ready with us!",
+  "text": "Our bilingual technicians will guide you through the repairs or maintenance. Get your free quote today!",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Maintanence?",
+      "content": "Remember that regular maintenance and repair services to ensure that heating and cooling systems are working efficiently and effectively! From duct-cleaning to thermostat installation to make your home as energy efficient as possible.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Repair?",
+      "content": "We offer emergency services for heating and cooling system failures, ensuring that systems are quickly restored to normal operation.",
       "icon": "notes.svg"
     }
   ]

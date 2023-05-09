@@ -13,7 +13,7 @@ import {
   Para,
   Large,
   Chat,
-  Empty,
+  // Empty,
   FooterContainer,
   Language,
   Label,
@@ -52,15 +52,15 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Large to="/">{t("Tell us how to help!")}</Large>
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:l.lupitaflores880@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            {/* <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
               <Large to="/" left="true">
                 {t("Application Security")}
@@ -68,8 +68,8 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Software Principles")}
               </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            </Col> */}
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large left="true" to="/">
                 {t("Support Center")}
@@ -77,30 +77,29 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Customer Support")}
               </Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+            </Col> */}
+          {/* </Row>
+          <Row justify="space-between"> */}
+            {/* <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
+              <Para>Lupita's HVAC Company</Para>
+              <Para>Chicago,Illinois</Para>
+            </Col> */}
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
-                {t("About")}
+                {t("about")}
               </Large>
               <Large left="true" to="/">
-                {t("Blog")}
+                {t("Products")}
               </Large>
-              <Large left="true" to="/">
+              {/* <Large left="true" to="/">
                 {t("Press")}
-              </Large>
-              <Large left="true" to="/">
+              </Large> */}
+              {/* <Large left="true" to="/">
                 {t("Careers & Culture")}
-              </Large>
+              </Large> */}
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -145,22 +144,22 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/anacecyflores1"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/anacecyflores1"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/anacecyflores"
                 src="linkedin.svg"
               />
-              <SocialLink
+              {/* <SocialLink
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
-              />
-              <a href="https://www.buymeacoffee.com/adrinlol">
+              /> */}
+              <a href="https://www.buymeacoffee.com/anacecyflores">
                 <img
                   src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
                   alt="Buy me a pizza"
