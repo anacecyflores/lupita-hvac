@@ -34,14 +34,14 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-         icon="thermostat.png"
+         icon="seasons.png"
         id="about"
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="services.png"
+        icon="home.png"
         id="mission"
       />
       <ContentBlock

@@ -2,7 +2,7 @@
   "About": "Acerca de",
   "Policy": "Politica",
   "Mission": "Misión",
-  "Product": "Producto",
+  "Services": "Servicios",
   "Tell us everything": "Cuéntanos todo",
   "Contact": "Contacto",
   "Do you have any question? Feel free to reach out.": "¿Tienes alguna pregunta? No dude en contactarnos",
@@ -14,7 +14,7 @@
   "Address": "Habla A",
   "Press": "Prensa",
   "Careers & Culture": "Carreras & cultura",
-  "Language": "Language",
+  "Language": "Idioma",
   "Explore": "Explorar",
   "Learn more": "Más información",
   "Get started": "Comenzar",
@@ -24,5 +24,6 @@
   "Name" : "Nombre",
   "Your Name": "Tu nombre",
   "Email" : "Email",
-  "Your Email": "Tu correo electrónico"
+  "Your Email": "Tu correo electrónico",
+  "24 hours a day and 7 days a week!": "¡Las 24 horas del día y los 7 días de la semana!"
 }

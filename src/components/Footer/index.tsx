@@ -89,10 +89,10 @@ const Footer = ({ t }: any) => {
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
-                {t("about")}
+                {t("About")}
               </Large>
               <Large left="true" to="/">
-                {t("Products")}
+                {t("Services")}
               </Large>
               {/* <Large left="true" to="/">
                 {t("Press")}
@@ -135,7 +135,7 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="logo.svg" 
                   aria-label="homepage"
                   width="101px"
                   height="64px"

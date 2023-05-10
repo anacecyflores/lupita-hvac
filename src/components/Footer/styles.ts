@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
   background: rgb(241, 242, 243);
-  padding: 2.5rem 0;
+  padding: 1.5rem 0;
 `;
 
 export const Title = styled("h4")`
@@ -35,7 +35,7 @@ export const Extra = styled("section")`
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 `;
 
 export const LogoContainer = styled("div")`

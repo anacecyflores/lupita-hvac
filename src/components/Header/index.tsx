@@ -44,7 +44,7 @@ const Header = ({ t }: any) => {
           <Span>{t("Mission")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{t("Services")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
@@ -63,7 +63,7 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="logo.svg" width="320px" height="60px" />   
           </LogoContainer>
           <NotHidden>
             <MenuItem />
@@ -73,7 +73,7 @@ const Header = ({ t }: any) => {
           </Burger>
         </Row>
         <Drawer closable={false} visible={visible} onClose={onClose}>
-          <Col style={{ marginBottom: "2.5rem" }}>
+          <Col style={{ marginBottom: ".5rem"}}>
             <Label onClick={onClose}>
               <Col span={12}>
                 <Menu>Menu</Menu>
