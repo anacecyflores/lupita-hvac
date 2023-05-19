@@ -2,12 +2,14 @@
   "title": "24 hours a day and 7 days a week!",
   "text": "Lupita's team of certified HVAC Technicians will help you any day! Our  HVAC (Heating, Ventilation, and Air Conditioning) company provides a range of services related to climate control in residential, commercial, and industrial settings. ",
   "button": [
-    {
-      "title": "Explore Services"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
-    }
-  ]
+  {
+    "title": "Explore Services"
+  },
+  {
+    "title": "Email Us For A Quote!",
+    "color": "#fff",
+    "email": "mailto:lupitaflores880@gmail.com"
+  }
+]
+
 }

@@ -56,7 +56,7 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.lupitaflores880@gmail.com">
+              <a href="mailto:lupitaflores880@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -134,12 +134,15 @@ const Footer = ({ t }: any) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
-                  src="logo.svg" 
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
+                <a href="https://www.midwestdev.net">
+  <SvgIcon
+    src="midwest.png"
+    aria-label="homepage"
+    width="200px"
+    height="64px"
+  />
+</a>
+
               </LogoContainer>
             </NavLink>
             <FooterContainer>
@@ -155,16 +158,6 @@ const Footer = ({ t }: any) => {
                 href="https://www.linkedin.com/in/anacecyflores"
                 src="linkedin.svg"
               />
-              {/* <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              /> */}
-              <a href="https://www.buymeacoffee.com/anacecyflores">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>

@@ -46,12 +46,17 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>{t("Services")}</Span>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall onClick={() => window.location.href = 'mailto:lupitaflores880@gmail.com'}>
+  <Span>{t("Email Us")}</Span>
+</CustomNavLinkSmall>
+
+
         <CustomNavLinkSmall
-          style={{ width: "180px" }}
+          style={{ width: "150px" }}
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{t("Leave A Message")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -61,9 +66,9 @@ const Header = ({ t }: any) => {
   return (
     <HeaderSection>
       <Container>
-        <Row justify="space-between">
+        <Row justify="space-evenly">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="320px" height="60px" />   
+            <SvgIcon src="logo.svg" width="300px" height="55px" />   
           </LogoContainer>
           <NotHidden>
             <MenuItem />
@@ -75,10 +80,10 @@ const Header = ({ t }: any) => {
         <Drawer closable={false} visible={visible} onClose={onClose}>
           <Col style={{ marginBottom: ".5rem"}}>
             <Label onClick={onClose}>
-              <Col span={12}>
+              <Col span={5}>
                 <Menu>Menu</Menu>
               </Col>
-              <Col span={12}>
+              <Col span={5}>
                 <Outline />
               </Col>
             </Label>
